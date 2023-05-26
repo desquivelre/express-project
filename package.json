@@ -1,9 +1,20 @@
 {
+  "name": "first-project-express",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "@types/node": "^20.2.3",
-    "tailwindcss": "^3.3.2"
+    "nodemon": "^2.0.22"
   }
 }
