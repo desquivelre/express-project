@@ -3,13 +3,12 @@ const morgan = require("morgan");
 
 const app = express();
 
-const products = [
-  {
-    id: 1,
-    name: "laptop",
-    price: "3600",
-  }
-];
+const products = 
+{
+  id: 1,
+  name: "laptop",
+  price: "3600",
+};
 
 app.use(express.text());
 app.use(express.json());
